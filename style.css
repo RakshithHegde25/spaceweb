@@ -1,6 +1,4 @@
-body{
-    background-color: black;
-}
+
 #main-nav{
     background-image: url("images/pexels-francesco-ungaro-998641\ \(1\).jpg") !important;
     padding-bottom: 20px;
@@ -11,4 +9,9 @@ body{
   margin-right: 5em;
   margin-bottom: 10em;
  
+}
+.date-picofday{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
