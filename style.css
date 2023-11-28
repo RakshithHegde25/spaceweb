@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+#main-nav{
+    background-image: url("images/pexels-francesco-ungaro-998641\ \(1\).jpg") !important;
+    padding-bottom: 20px;
+}
+.car-main{
+
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-bottom: 10em;
+ 
+}
