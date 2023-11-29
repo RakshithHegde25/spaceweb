@@ -36,7 +36,7 @@
 .contents-weather{
     display: flex;
     flex-direction: row;
-    gap: 25rem;
+    gap: 30rem;
 }
 .first-line{
     flex: 2;
@@ -47,5 +47,5 @@
 .wind{
     display: flex;
     flex-direction: row;
-    gap: 25rem;
+    gap: 30rem;
 }
