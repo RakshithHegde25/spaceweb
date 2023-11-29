@@ -23,3 +23,24 @@
     display: flex;
     justify-content: center;
 }
+.flex-container{
+    display: flex;
+    flex-direction: row;
+        
+    justify-content: center;
+}
+.title-marsweather{
+    display: flex;
+    justify-content: center;
+}
+.contents-weather{
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+}
+.first-line{
+    flex: 2;
+}
+.first-line2{
+    flex:1;
+}

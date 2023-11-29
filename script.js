@@ -30,4 +30,24 @@ fetch(url)
 });
 }
 
+function MarsWeather(){
+    const choice=document.querySelector('input').value
+    console.log(choice)
+    let url=`https: //api.nasa.gov/insight_weather/?api_key=Lg0YvadbYvd3RpzQOrZvKtOagbXYIPrRlfjd9DLC&feedtype=json&ver=1.0`
+fetch(url)
+.then(res=>res.json())
+.then(data=>{
+    console.log(data)
+   
+    
+
+    
+})
+.catch(err=>{
+    console.log(`error ${err}`)
+});
+}
+
+MarsWeather();
+
 
