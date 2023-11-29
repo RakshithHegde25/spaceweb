@@ -44,3 +44,8 @@
 .first-line2{
     flex:1;
 }
+.wind{
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+}
