@@ -17,7 +17,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <title>Picture of the Day</title>
+    <title>Info Space</title>
     
   </head>
   <body>
@@ -49,13 +49,13 @@
               <a class="nav-link" href="pictureoftheday.html">Picture of the Day</a>
               <a class="nav-link" href="weatherinmars.html">Weather in Mars</a>
               <a class="nav-link" href="#">Mars Rover Pictures</a>
-              <a class="nav-link" href="#">Template</a>
+              <a class="nav-link" href="moonweather.html">Moon Phases</a>
             </div>
           </div>
         </div>
       </nav>
     </div>
-    <div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 4rem;">
+    <div class="allign" style="display: flex;justify-content: center;"><div id="carouselExampleCaptions" class="carousel slide" style="margin-top: 2rem; max-width: 75rem;">
       <div class="carousel-indicators">
         <button
           type="button"
@@ -81,33 +81,36 @@
       <div class="car-main">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
+            
+            <a href="pictureoftheday.html"><img
               src="images/picture of the day.jpg"
               class="d-block w-100"
               alt="Picture of the Day"
-            />
+            /></a>
             <div class="carousel-caption d-none d-md-block">
               <h5>Picture of the Day</h5>
               <p>Discover the Picture of the Day with us.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="images/mars.jpg"
+            <a href="weatherinmars.html"> <img
+              src="images/mars-carousel.jpg"
               class="d-block w-100"
               alt="Picture of Mars"
-            />
+            /></a>
+           
             <div class="carousel-caption d-none d-md-block">
               <h5>Weather of Mars</h5>
               <p>Discover how the Weather of Mars is.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="images/mars rover.jpg" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Picture of Mars Rover</h5>
-              <p>See the Picture of the Mars Rover in Different Dates.</p>
-            </div>
+            <a href="moonweather.html"> <img src="images/moon.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Moon Phases</h5>
+                <p>Check the Moon Phases,Sunrise and Moonrise time in Bangalore</p>
+              </div></a>
+           
           </div>
         </div>
         <button
@@ -129,7 +132,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </div></div>
+    
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

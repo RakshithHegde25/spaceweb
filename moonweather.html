@@ -17,7 +17,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-    <title>Info Space</title>
+    <title>Homepage</title>
   </head>
   <body>
     <div class="main-nav">
@@ -48,55 +48,33 @@
               <a class="nav-link" href="pictureoftheday.html">Picture of the Day</a>
               <a class="nav-link" href="weatherinmars.html">Weather in Mars</a>
               <a class="nav-link" href="#">Mars Rover Pictures</a>
-              <a class="nav-link" href="moonweather.html">Moon Phases</a>
+              <a class="nav-link" href="moonweather.html">Moon Weather</a>
             </div>
           </div>
         </div>
       </nav>
-      <div class="card mb-3">
-        <img src="images/PIA25969.jpg" class="card-img-top" alt="Picture of Mars">
-        <div class="card-body">
-          
-          <div class="flex-container">
-            <div>
-              <p class="card-text"><div class="card border-secondary mb-3" style="max-width: 48rem;">
-                <div class="card-header" style="display: flex;justify-content: center;"><h5>A Day In Mars is Called a Sol</h2></div>
-                  
-                <div class="card-body text-secondary">
-                  <div class="contents-weather">
-                    <div id="first-line"><h4>Sol</h4><br><div ><h5 id="sol-cnt">Placeholder</h5></div></div>
-                    <div id="first-line2"><h5>Min(In Celcius):</h5><div id="min-weather">Placeholder</div>
-                    <div id="first-line2"><h5>Max(In Celcius):</h5><div id="max-weather">Placeholder</div>
-                    
-                  </div>
-                  
-                
-                  
-                  </div>
-                </div>
-                <hr>
-                <div class="wind">
-                  <div class="secondline"><h4>The windspeed is(in m/s)</h4>
-                    <br>
-                    <div id="wind-val">Placeholder</div></div>
-                  
-                  
-                  <div class="marsrover-weatherofmars"><img src="images/mars-exploration-rover.png"  width="100rem"></div>
-                  
-                </div>
-                
-              </div>
-              </p>
-            </div>
-           
-
-          <p class="card-text"><small class="text-body-secondary"></small></p>
-        </div>
-      </div>
     </div>
+    
+    <img src="images/phasesgraphic.webp" width="100%">
+    <div class="maincard"> <div class="card mb-3" id="mooncard">
+        <img id="moon-image" src="" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title" id="moon-phase">Card title</h3>
+          <p class="card-text">
+            <h4>Sunrise at:&#127774</h5><h5 id="sunrise-id">6:30</span>
+            <h4>Sunset at:&#127776</h5><h5 id="sunset-id">6:30</span>
+            <h4>Moonrise at:&#127773</h5><h5 id="moonrise-id">8:30</span>
+            <h4>Moonset at:&#127770</h5><h5 id="moonset-id">9:30</span>
 
+          </p>
+          
+        </div>
+        
+      </div></div>
 
-    <script src="mars.js"></script>
+      
+      
+    <script src="moon.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
